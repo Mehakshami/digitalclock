@@ -1,0 +1,29 @@
+/* Basic reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(221,44,189,0.7539390756302521) 67%, rgba(252,70,107,1) 100%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:purple;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    font-size: 10vh;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background-color:rgb(233, 99, 233);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 100px rgba(190, 31, 31, 0.5);
+}
